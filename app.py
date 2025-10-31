@@ -42,3 +42,6 @@ st.title("OCI VPS 库存监控")
 if st.button("立即检查库存"):
     result = check_stock()
     st.write(result)
+if st.button("测试 Telegram 通知"):
+    send_telegram_message("✅ Telegram 测试成功！")
+
